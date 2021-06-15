@@ -1,18 +1,43 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 This project adheres to [Package Versioning Policy](https://wiki.haskell.org/Package_versioning_policy).
+
+## [2.7.1.1] - 2021-06-14
+
+### Fixed
+- Sample code
+
+### Added
+- Clarification to the tutorial
+
+## [2.7.1.0] - 2020-08-17
+
+### Added
+- Function findCommand
+
+## [2.7.0.1] - 2020-04-07
+
+### Fixed
+- Error reporting for deletion of big messages
+- Formatting of docs
+
+## [2.7.0.0] - 2020-02-08
+
+### Fixed
+- Upgraded bson to compile with GHC 8.8
+
 ## [2.6.0.1] - 2020-02-01
 
-## Fixed
+### Fixed
 - Parsing hostname with underscores in readHostPortM.
 
 ## [2.6.0.0] - 2020-01-03
 
-## Added
+### Added
 - MonadFail. It's a standard for newer versions of Haskell,
 - Open replica sets over tls.
 
-## Fixed
+### Fixed
 - Support for unix domain socket connection,
 - Stubborn listener threads.
 
